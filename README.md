@@ -10,7 +10,16 @@ A few useful (unit tested) JavaScript date methods
 - Date.js: http://www.datejs.com/
 - Node Date Utils: https://github.com/JerrySievert/node-date-utils
 
-### Name (Why call a date utilities library "ri"?)
+### Why?
+
+Why build *another* date utilities library when *several* already exist?
+
+a) For fun. 
+b) Coding (JS TDD) practice
+c) Discovering interesting features
+d) only build/load what I need (*minimalist*)
+
+### Name (why call a date utilities library "ri"?)
 rì is the chinese word for date or day of the month.
 https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=r%C3%AC
 
