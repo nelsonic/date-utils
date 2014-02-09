@@ -3,12 +3,18 @@ rì
 
 A few useful (unit tested) JavaScript date methods
 
+### Background
+
+A comprehensive introduction to the JavaScript Date (*built-in methods*)
+is available on MDN:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 ### Existing JS Date Libaries
 
 - Moment.js: http://momentjs.com/
 - Date.js: http://www.datejs.com/
 - Node Date Utils: https://github.com/JerrySievert/node-date-utils
+
 
 ### Why?
 
