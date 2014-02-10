@@ -1,4 +1,4 @@
-rì
+Date Utils
 ====
 
 A few useful (unit tested) JavaScript date methods
@@ -14,19 +14,11 @@ Why build *another* date utilities library when *several* already exist?
 - Discover interesting features
 - only build/load what I need (*minimalist*)
 
-### Name (why call a date utilities library "ri"?)
-rì is the chinese word for date or day of the month.
-https://chinese.yabla.com/chinese-english-pinyin-dictionary.php?define=r%C3%AC
+## Name
 
-Right now this is just a working title till we come up with a better name...
-I thought of using **T** or **D** but, T is taken by 
-https://github.com/jasonmoo/t.js
-and D.js is encumbered by "DJs". If you have a better name, please submit it!
+**Date Uitls** is prety generic but tells people exactly what 
+the script does.
 
-In the interest of findability I'm considering changing the name of this repo
-to something more keyword friendly... Words:
-
-- Date, Utilities, Useful, Time, Helper
 
 ## Background / Researh
 
