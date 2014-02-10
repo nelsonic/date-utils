@@ -55,3 +55,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 **Date Uitls** is prety generic but tells people exactly what 
 the script does.
+
+### JSHint for test.js
+
+see: https://gist.github.com/zackd/794998
