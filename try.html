@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Activity Graph Tests</title>
+</head>
+<body>
+  <script src="lib/ri.js" data-cover></script>
+  <script type="text/javascript">
+    var expect, input, DD, MM, YYYY;
+    // console.dir(DU);
+    DU.parseDate("2014-01-23");
+    console.log("7 with leading zero is: " +DU.addLeadingZero(7));
+    // simpleDate
+    console.log("Simple Date: "+DU.simpleDate());
+
+    input  = new Date();           // date to use below
+    simple = DU.simpleDate(input); // simple format YYYY-MM-DD (no time)
+    DD     = input.getDate();
+    MM     = input.getMonth();
+    YYYY   = input.getFullYear();
+    expect = new Date(YYYY, MM, DD);
+    console.log(expect.toString());
+    console.log(DU.parseDate(simple).toString());
+  </script>
+</body>
+</html>
