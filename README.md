@@ -1,4 +1,4 @@
-Date Utils
+Date Utils [![Code Climate](https://codeclimate.com/github/nelsonic/date-utils.png)](https://codeclimate.com/github/nelsonic/date-utils)
 ====
 
 A few useful (unit tested) JavaScript date methods
