@@ -1,4 +1,4 @@
-var DU = (function () { // If T (Timer) is not defined, create module
+var DU = (function () { 
     "use strict";
 
     // if a number is below 10 and we want it to have a leading zero
@@ -39,11 +39,6 @@ var DU = (function () { // If T (Timer) is not defined, create module
     // addapted from :https://github.com/brycebaril/node-ago/blob/master/index.js
     function addDayToDate(input) {
         var day, ms, nextDay;
-        // if(typeof input === 'undefined') {
-        //     console.log("No input supplied to addDayToDate!");
-        //     return false;
-        // }
-
         if(typeof input !== "object") {
             // console.log("Parsing date ... "+input);
             input = parseDate(input);
@@ -54,7 +49,6 @@ var DU = (function () { // If T (Timer) is not defined, create module
         // console.log(input + " | +1 day >> " +nextDay);
         return nextDay;
     }
-
 
     // returns array of days between startDate and endDate
     // endDate defaults to today if not specified
@@ -75,10 +69,8 @@ var DU = (function () { // If T (Timer) is not defined, create module
             d = addDayToDate(d);
         }
         range.push(simpleDate(endDate));
-
         return range;
     }
-
 
     // Return the public facing methods for the App
     return {

@@ -1,7 +1,9 @@
 Date Utils [![Code Climate](https://codeclimate.com/github/nelsonic/date-utils.png)](https://codeclimate.com/github/nelsonic/date-utils)
 ====
 
-A few useful (unit tested) JavaScript date methods
+A handful of useful (unit tested) JavaScript date methods
+
+
 
 
 ### Why?
@@ -14,17 +16,21 @@ Why build *another* date utilities library when *several* already exist?
 - Discover interesting features
 - only build/load what I need (*minimalist*)
 
-## Name
+### Try it
 
-**Date Uitls** is prety generic but tells people exactly what 
-the script does.
+```sh
+git clone git@github.com:nelsonic/date-utils.git
+cd date-utils
+python -m SimpleHTTPServer
+```
+Then visit: http://localhost:8000/?coverage=true/
 
 
 ## Background / Researh
 
 If you have never played with JavaScript **Date** try the
-comprehensive introduction to the JavaScript Date (*built-in methods*)
-on **M**ozilla **D**eveloper **N**etwork:
+comprehensive introduction to the JavaScript Date <br />
+(*built-in methods*) on **M**ozilla **D**eveloper **N**etwork:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
 
 
@@ -38,8 +44,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 ### Other JS Related Libraries (Low Usage)
 
 - Ago: https://github.com/brycebaril/node-ago 
-(two elegant methods, simple tests, zero promo === no traction)
+(two elegant methods, simple tests, low traction)
 - To-date https://github.com/vesln/to-date 
 (good tests. *zero* watchers! strange... uses **ago** see above)
 - JS Date https://github.com/coolaj86/javascript-date (rudimentary tests)
 - DT: https://github.com/peterbraden/dt.js (namespace squatting)
+
+
+#### Name
+
+**Date Uitls** is prety generic but tells people exactly what 
+the script does.
