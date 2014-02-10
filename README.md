@@ -3,7 +3,7 @@ Date Utils [![Code Climate](https://codeclimate.com/github/nelsonic/date-utils.p
 
 A handful of useful (unit tested) JavaScript date methods
 
-
+![Tests Passing](http://i58.tinypic.com/71gw0g.png "Tests Passing")
 
 
 ### Why?
